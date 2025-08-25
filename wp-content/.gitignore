@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Docker
+db_data/
+*.log
+
+# WordPress
+wp-content/uploads/
+wp-content/cache/
+wp-content/plugins/*/node_modules/
+wp-content/plugins/*/vendor/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Tag recommender backend data
+tag_recommender/backend/data/
+
+# Environment files
+.env.local
